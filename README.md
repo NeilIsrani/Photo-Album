@@ -1,4 +1,4 @@
-#  Homework 9 - Neil Israni
+#  Java Photo Album
 The four packages- controller, model, utility and view divide the program by the functions of the MVC and helper functions. 
 The controller contains GraphicalController and WebController and a common IController interface. The controllers instantiate the CommandReader file that parses though the instruction txt file, gets snapshots using the model and then outputs the view with these snapshots. 
 PictureModel(the model spoken of above) has the ability to modify shapes, add them to a list of 'shapes' and process them to a list of 'snapshots'.
